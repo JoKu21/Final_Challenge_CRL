@@ -10,6 +10,7 @@ font-family: 'Oswald', sans-serif;
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    min-width: 500px;
 }
 
 h1,
@@ -71,10 +72,10 @@ ul {
 
 .hero__title {
     font-family: 'Oswald', sans-serif;
-    font-size: 5.6rem;
+    font-size: 90px;
     color: white;
     margin-bottom: 50px;
-    line-height: 6rem;
+    line-height: 93px;
 }
 
 .hero__title--accent {
