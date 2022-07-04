@@ -71,10 +71,10 @@ ul {
 
 .hero__title {
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
+    font-size: 5.6rem;
     color: white;
     margin-bottom: 50px;
-    line-height: 93px;
+    line-height: 6rem;
 }
 
 .hero__title--accent {
