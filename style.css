@@ -10,7 +10,7 @@ font-family: 'Oswald', sans-serif;
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    min-width: 500px;
+    
 }
 
 h1,
@@ -72,10 +72,10 @@ ul {
 
 .hero__title {
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
+    font-size: 60px;
     color: white;
     margin-bottom: 50px;
-    line-height: 93px;
+    line-height: 63px;
 }
 
 .hero__title--accent {
@@ -179,10 +179,7 @@ ul {
     color: white;
 }
 
-.nav__link--button:hover,
-.nav__link--button:focus {
-    opacity: .75;
-}
+
 
 .logo {
     height: 30px;
@@ -207,8 +204,8 @@ ul {
     font-family: 'Oswald', sans-serif;
 }
 
-.hero__content--cta:hover,
-.hero__content--cta:focus {
+a:hover,
+a:focus {
     opacity: .75;
 }
 
@@ -303,7 +300,7 @@ footer li {
 }
 
 
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 800px) and (max-width: 1000px) {
     .nav-toggle {
         display: none;
     }
@@ -361,6 +358,11 @@ footer li {
 
     .footer-links--card + .footer-links--card {
         margin-top: 0px;
+    }
+
+    .hero__title {
+        line-height: 78px;
+        font-size: 75px;
     }
 }
 
@@ -444,5 +446,10 @@ footer li {
         margin-right: 100px;
         width: 40%;
         text-align: start;
+    }
+
+    .hero__title {
+        line-height: 93px;
+        font-size: 90px;
     }
 }
